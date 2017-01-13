@@ -26,6 +26,7 @@
     navigationview.hidden = YES;
     UINavigationController* nav = self.navigationController;
     
+    self.title = @"我才是navigationtitle";
     nav.navigationBar.hidden = NO;
     [nav setNavigationBarHidden:NO];
 }
