@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CB1E3C71C4FB81A001937AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1E3C61C4FB81A001937AE /* main.m */; };
+		6CB1E3CA1C4FB81A001937AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1E3C91C4FB81A001937AE /* AppDelegate.m */; };
+		6CB1E3CD1C4FB81A001937AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1E3CC1C4FB81A001937AE /* ViewController.m */; };
+		6CB1E3D21C4FB81A001937AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1E3D11C4FB81A001937AE /* Assets.xcassets */; };
+		6CB1E3D51C4FB81A001937AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1E3D31C4FB81A001937AE /* LaunchScreen.storyboard */; };
+		6CB1E3DE1C4FB85D001937AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1E3DD1C4FB85D001937AE /* Default-568h@2x.png */; };
+		6CB1E3E01C4FB86F001937AE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1E3DF1C4FB86F001937AE /* libz.tbd */; };
+		6CB1E3E21C4FB878001937AE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1E3E11C4FB878001937AE /* SystemConfiguration.framework */; };
+		6CB1E3E41C4FB87F001937AE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1E3E31C4FB87F001937AE /* libsqlite3.0.tbd */; };
+		6CB1E3E81C4FB891001937AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1E3E71C4FB891001937AE /* Foundation.framework */; };
+		6CB1E3EA1C4FB898001937AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1E3E91C4FB898001937AE /* UIKit.framework */; };
+		A99DE8A51E1DDD2C0042A54B /* KPNavigationView+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A99DE8A41E1DDD2C0042A54B /* KPNavigationView+hook.m */; };
+		A99DE8A81E1DE8A70042A54B /* KPWebViewController+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A99DE8A71E1DE8A70042A54B /* KPWebViewController+hook.m */; };
+		EE0105FD1C8418CD000B6706 /* JDKeplerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0105FC1C8418CD000B6706 /* JDKeplerSDK.framework */; };
+		EED9C2B21C622BAC00B5240E /* Kepler.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EED9C2B11C622BAC00B5240E /* Kepler.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CB1E3C21C4FB81A001937AE /* TestKeplerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKeplerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB1E3C61C4FB81A001937AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CB1E3C81C4FB81A001937AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CB1E3C91C4FB81A001937AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CB1E3CB1C4FB81A001937AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CB1E3CC1C4FB81A001937AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CB1E3D11C4FB81A001937AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CB1E3D41C4FB81A001937AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CB1E3D61C4FB81A001937AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB1E3DD1C4FB85D001937AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6CB1E3DF1C4FB86F001937AE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6CB1E3E11C4FB878001937AE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6CB1E3E31C4FB87F001937AE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6CB1E3E71C4FB891001937AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CB1E3E91C4FB898001937AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A99DE8A31E1DDD2C0042A54B /* KPNavigationView+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPNavigationView+hook.h"; sourceTree = "<group>"; };
+		A99DE8A41E1DDD2C0042A54B /* KPNavigationView+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPNavigationView+hook.m"; sourceTree = "<group>"; };
+		A99DE8A61E1DE8A70042A54B /* KPWebViewController+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPWebViewController+hook.h"; sourceTree = "<group>"; };
+		A99DE8A71E1DE8A70042A54B /* KPWebViewController+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPWebViewController+hook.m"; sourceTree = "<group>"; };
+		EE0105FC1C8418CD000B6706 /* JDKeplerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JDKeplerSDK.framework; sourceTree = "<group>"; };
+		EED9C2B11C622BAC00B5240E /* Kepler.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Kepler.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB1E3BF1C4FB81A001937AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB1E3EA1C4FB898001937AE /* UIKit.framework in Frameworks */,
+				EE0105FD1C8418CD000B6706 /* JDKeplerSDK.framework in Frameworks */,
+				6CB1E3E81C4FB891001937AE /* Foundation.framework in Frameworks */,
+				6CB1E3E41C4FB87F001937AE /* libsqlite3.0.tbd in Frameworks */,
+				6CB1E3E21C4FB878001937AE /* SystemConfiguration.framework in Frameworks */,
+				6CB1E3E01C4FB86F001937AE /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB1E3B91C4FB81A001937AE = {
+			isa = PBXGroup;
+			children = (
+				A99DE8A61E1DE8A70042A54B /* KPWebViewController+hook.h */,
+				A99DE8A71E1DE8A70042A54B /* KPWebViewController+hook.m */,
+				A99DE8A31E1DDD2C0042A54B /* KPNavigationView+hook.h */,
+				A99DE8A41E1DDD2C0042A54B /* KPNavigationView+hook.m */,
+				6CB1E3E91C4FB898001937AE /* UIKit.framework */,
+				6CB1E3E71C4FB891001937AE /* Foundation.framework */,
+				6CB1E3E11C4FB878001937AE /* SystemConfiguration.framework */,
+				6CB1E3E31C4FB87F001937AE /* libsqlite3.0.tbd */,
+				6CB1E3DF1C4FB86F001937AE /* libz.tbd */,
+				6CB1E3C41C4FB81A001937AE /* TestKeplerDemo */,
+				6CB1E3C31C4FB81A001937AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB1E3C31C4FB81A001937AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1E3C21C4FB81A001937AE /* TestKeplerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB1E3C41C4FB81A001937AE /* TestKeplerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE0105FC1C8418CD000B6706 /* JDKeplerSDK.framework */,
+				EED9C2B11C622BAC00B5240E /* Kepler.bundle */,
+				6CB1E3C81C4FB81A001937AE /* AppDelegate.h */,
+				6CB1E3C91C4FB81A001937AE /* AppDelegate.m */,
+				6CB1E3CB1C4FB81A001937AE /* ViewController.h */,
+				6CB1E3CC1C4FB81A001937AE /* ViewController.m */,
+				6CB1E3D11C4FB81A001937AE /* Assets.xcassets */,
+				6CB1E3D31C4FB81A001937AE /* LaunchScreen.storyboard */,
+				6CB1E3D61C4FB81A001937AE /* Info.plist */,
+				6CB1E3C51C4FB81A001937AE /* Supporting Files */,
+			);
+			path = TestKeplerDemo;
+			sourceTree = "<group>";
+		};
+		6CB1E3C51C4FB81A001937AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB1E3DD1C4FB85D001937AE /* Default-568h@2x.png */,
+				6CB1E3C61C4FB81A001937AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB1E3C11C4FB81A001937AE /* TestKeplerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB1E3D91C4FB81A001937AE /* Build configuration list for PBXNativeTarget "TestKeplerDemo" */;
+			buildPhases = (
+				6CB1E3BE1C4FB81A001937AE /* Sources */,
+				6CB1E3BF1C4FB81A001937AE /* Frameworks */,
+				6CB1E3C01C4FB81A001937AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestKeplerDemo;
+			productName = TestKeplerDemo;
+			productReference = 6CB1E3C21C4FB81A001937AE /* TestKeplerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB1E3BA1C4FB81A001937AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jd;
+				TargetAttributes = {
+					6CB1E3C11C4FB81A001937AE = {
+						CreatedOnToolsVersion = 7.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6CB1E3BD1C4FB81A001937AE /* Build configuration list for PBXProject "TestKeplerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CB1E3B91C4FB81A001937AE;
+			productRefGroup = 6CB1E3C31C4FB81A001937AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB1E3C11C4FB81A001937AE /* TestKeplerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB1E3C01C4FB81A001937AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED9C2B21C622BAC00B5240E /* Kepler.bundle in Resources */,
+				6CB1E3D51C4FB81A001937AE /* LaunchScreen.storyboard in Resources */,
+				6CB1E3D21C4FB81A001937AE /* Assets.xcassets in Resources */,
+				6CB1E3DE1C4FB85D001937AE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB1E3BE1C4FB81A001937AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99DE8A51E1DDD2C0042A54B /* KPNavigationView+hook.m in Sources */,
+				6CB1E3CD1C4FB81A001937AE /* ViewController.m in Sources */,
+				6CB1E3CA1C4FB81A001937AE /* AppDelegate.m in Sources */,
+				A99DE8A81E1DE8A70042A54B /* KPWebViewController+hook.m in Sources */,
+				6CB1E3C71C4FB81A001937AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CB1E3D31C4FB81A001937AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB1E3D41C4FB81A001937AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB1E3D71C4FB81A001937AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Jingdong Century Trading Co., Ltd.";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0a225d6b-6c77-4737-9c34-069cf0a8c913";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CB1E3D81C4FB81A001937AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "0a225d6b-6c77-4737-9c34-069cf0a8c913";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB1E3DA1C4FB81A001937AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestKeplerDemo",
+				);
+				INFOPLIST_FILE = TestKeplerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestKeplerDemo",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.KeplerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccd12fb7-191c-48e6-9d1d-afad43feae6d";
+				PROVISIONING_PROFILE_SPECIFIER = "企业inhouse通用";
+			};
+			name = Debug;
+		};
+		6CB1E3DB1C4FB81A001937AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xiamen Linggan Fangzhou Information Technology Co., Ltd";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestKeplerDemo",
+				);
+				INFOPLIST_FILE = TestKeplerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestKeplerDemo",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.KeplerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ccd12fb7-191c-48e6-9d1d-afad43feae6d";
+				PROVISIONING_PROFILE_SPECIFIER = "企业inhouse通用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB1E3BD1C4FB81A001937AE /* Build configuration list for PBXProject "TestKeplerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB1E3D71C4FB81A001937AE /* Debug */,
+				6CB1E3D81C4FB81A001937AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB1E3D91C4FB81A001937AE /* Build configuration list for PBXNativeTarget "TestKeplerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB1E3DA1C4FB81A001937AE /* Debug */,
+				6CB1E3DB1C4FB81A001937AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB1E3BA1C4FB81A001937AE /* Project object */;
+}
